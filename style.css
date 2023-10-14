@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line{
+    height: .5vh;
+    width: 10vw;
+    background-color: red;
+    border-radius: 25px;
+    margin-left: 680px;
+    margin-top: 5px;
+}
+
+p{
+    font-size: 17px;
+    font-weight: 400;
+    color: grey;
+    margin-top: 10px;
+   text-align: center;
+}
+
+.part{
+    display: flex !important;
+    position: absolute;
+}
+
+.img{
+    height: 55vh;
+    width: 25vw;
+    box-shadow: 5px 5px 25px grey;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.img img{
+    width: 25vw;
+    height: 30vh;
+}
+
+.name{
+    position: relative;
+    height: 10vh;
+    width: 20vw;
+    box-shadow: 5px 5px 25px grey;
+    bottom: 30px;
+    margin-left: 35px;
+    background: white;
+}
+
+.name h3{
+    text-align: center;
+    padding-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name .btn{
+    text-align: center;
+    background: white;
+    color: red;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-left: 110px;
+    margin-top: 5px;
+    padding: 5px 20px 5px 20px;
+}
+
+.para{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 80px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 3vh;
+    width: 2vw;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 80%;
+}
